@@ -2,10 +2,7 @@
 
 body {
     text-align: center;
-    background-color: rgb(0, 59, 111);
-    border-style: dashed;
-    border-width: 10px;
-    border-color: rgb(0, 44, 82);
+    background-color: rgb(244, 166, 111);
   }
 
 
@@ -16,7 +13,7 @@ body {
   }
 
   h1 {
-    font-size: 96px;
+    font-size: 70px;
     line-height: 1;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
