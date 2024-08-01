@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    text-align: center;
+    background-color: rgb(0, 59, 111);
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(0, 44, 82);
+  }
+
+
+  img {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(0, 44, 82);
+  }
+
+  h1 {
+    font-size: 96px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+  }
+  
+  h2 {
+    font-size: 36px;
+
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, sans-serif;
+  }
+
+  h3 {
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, sans-serif;
+  }
+  
+  p1 {
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+  }
+
+  p2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+  }
+  
+  span {
+    font-size: 64px;
+    line-height: 2;
+    color: white;
+  }
+
+  a {
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
