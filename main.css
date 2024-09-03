@@ -62,7 +62,6 @@ body {
     justify-content: space-between;
   }
 
-  /* The side navigation menu */
 .sidebar {
   margin: 0;
   padding: 0;
@@ -73,7 +72,6 @@ body {
   overflow: auto;
 }
 
-/* Sidebar links */
 .sidebar a {
   display: block;
   color: black;
@@ -81,24 +79,30 @@ body {
   text-decoration: none;
 }
 
-/* Active/current link */
 .sidebar a.active {
   background-color: rgb(254, 125, 32);
   color: white;
 }
 
-/* Links on mouse-over */
 .sidebar a:hover:not(.active) {
   background-color: rgb(222, 129, 62);
   color: white;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
 }
 
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
 
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 
