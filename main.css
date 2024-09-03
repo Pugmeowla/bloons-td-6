@@ -11,19 +11,21 @@ body {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-family: Ubuntu, sans-serif;
+    text-shadow: 4px 4px 8px #000000;
   }
   
   h2 {
     font-size: 36px;
-
     color: rgb(255, 255, 255);
     font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   h3 {
     font-size: 14px;
     color: rgb(255, 255, 255);
     font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
   }
   
   p1 {
@@ -32,6 +34,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   p2 {
@@ -40,6 +43,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
   }
   
   span {
