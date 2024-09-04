@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    text-align: center;
+    background-color: rgb(244, 166, 111);
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 4px 4px 8px #000000;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  h3 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  p1 {
+    font-size: 36px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  p2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  span {
+    font-size: 64px;
+    line-height: 2;
+    color: white;
+  }
+
+  a {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    text-decoration: none
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(228, 143, 82);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: rgb(254, 125, 32);
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(222, 129, 62);
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
