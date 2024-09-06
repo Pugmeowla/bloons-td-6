@@ -1,1 +1,1 @@
-# A Cool website made by andre and barely jordan
+# A Cool website made by andre and jordan
